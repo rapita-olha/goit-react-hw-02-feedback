@@ -1,12 +1,12 @@
-import { uid } from 'uid';
+import { uId } from 'uid';
 import PropTypes from 'prop-types';
-import s from 'components/FeedbackOptions/FeedbackOptions.module.css';
+import s from './FeedbackOptions.module.css';
 
 export default function FeedbackOptions({ options, onLeaveFeedback }) {
   return (
     <ul className={s.list}>
       {options.map(option => (
-        <li key={uid()} className={s.item}>
+        <li key={uId()} className={s.item}>
           <button className={s.button} onClick={onLeaveFeedback}>
             {option}
           </button>

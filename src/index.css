@@ -1,4 +1,4 @@
-@import 'modern-normalize/modern-normalize.css';
+@import-normalize;
 
 img {
   display: block;
@@ -16,6 +16,7 @@ p {
   margin: 0;
   padding: 0;
 }
+
 button {
   cursor: pointer;
 }

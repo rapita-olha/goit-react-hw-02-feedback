@@ -1,9 +1,9 @@
 import { Component } from 'react';
-import Container from 'components/Container/Container';
-import FeedbackForm from 'components/FeedbackForm';
-import Section from 'components/Section';
-import FeedbackOptions from 'components/FeedbackOptions';
-import Statistics from 'components/Statistics';
+import Container from './components/Container';
+import FeedbackForm from './components/FeedbackForm';
+import Section from './components/Section';
+import FeedbackOptions from './components/FeedbackOptions';
+import Statistics from './components/Statistics';
 import Notification from './components/Notification';
 
 class App extends Component {
